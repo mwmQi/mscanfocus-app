@@ -26,8 +26,8 @@
 mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By combining **Raw Socket Level connectivity** with the robustness of **Standard HTTP Clients**, we provide a scanning experience previously only possible on desktop environments.
 
 ### 🚀 Dual-Engine Hybrid Technology
-*   **Lite Mode (Turbo):** Direct Java Socket implementation. Bypasses standard overhead for massive throughput. Uses an Unsafe SSL Context to handle any server configuration without handshake failures.
-*   **Standard Mode:** Fully compliant OkHttp-powered scanning for high-fidelity response analysis and stability.
+*   **Lite Mode (Turbo):** Custom-engineered **TCP Socket Orchestration** that bypasses the JVM's standard network overhead for extreme throughput. Implements a specialized **Unsafe SSL/TLS Handshake Bypass**, enabling data extraction from hardened, legacy, or misconfigured servers that standard clients cannot negotiate.
+*   **Standard Mode (Advanced):** A high-fidelity **Protocol Emulation Engine** built on a hardened OkHttp foundation. Unlike basic implementations, it utilizes **Custom Interceptor Chains** for precise header synthesis and forensic-level response analysis, detecting hidden server behaviors and nuanaced redirection patterns with absolute accuracy.
 
 ### 🎯 Intelligent Redirection Logic (302)
 Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits. Tailor your exclusion list with real-time feedback.
