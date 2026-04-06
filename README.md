@@ -115,7 +115,7 @@ Tailor the engine to your specific network environment using the **Deep Configur
 *   **⚡ HTTP Method:** Choose between `HEAD` (Fastest), `GET`, `POST`, `PUT`, or `DELETE` based on server requirements.
 *   **⏱️ Connection Timeout:** Global timeout in seconds. Increase this for high-latency or global networks.
 *   **🚫 Selective 302 Filter:** Enable to bypass non-essential redirects.
-*   **📝 Exclusion Patterns:** Define specific URLs or keywords (e.g., `recharge`, `portal`) to ignore during 302 filtering.
+*   **📝 Exclusion Patterns:** Define keywords (e.g., `recharge`, `portal`) to filter specific 302 redirects. If the redirect `Location` contains any of these patterns, the host is skipped. **Note:** If this field is left empty, the engine will skip *all* 302 redirects by default.
 *   **🤖 Telegram Bot Token:** Your unique API key from @BotFather.
 *   **🆔 Chat/Topic ID:** The destination ID for automated reporting. Supports private chats, channels, and specific forum topics.
 *   **🏷️ Custom Caption:** Full control over your Telegram reports using dynamic variables like `{hits}`, `{method}`, and `{scantime}`.
