@@ -22,6 +22,7 @@
   <a href="#-technology">Technology</a> •
   <a href="#-gallery">Gallery</a> •
   <a href="#-deployment">Deployment</a> •
+  <a href="#-requirements">Requirements</a> •
   <a href="https://t.me/mscanfocus">Support</a>
 </p>
 
@@ -77,20 +78,49 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
 
 ---
 
-## 📦 Deployment & Setup
+## 📖 Operational Guide
 
-This repository is maintained as a **Landing Page & Release Distribution Point**. The source code is maintained in a private secure environment.
+### 1. Requirements
+*   **Android OS:** 11.0 (API 30) or higher.
+*   **Permissions:** `INTERNET`, `MANAGE_EXTERNAL_STORAGE` (for high-speed log writing), `WAKE_LOCK`.
 
-### Installation
-1.  Navigate to the **[Releases](https://github.com/mwmQi/mscanfocus-app/releases)** section of this repository.
-2.  Download the latest production-ready `.apk` file.
-3.  Ensure "Unknown Sources" is enabled in your Android security settings.
-4.  Install and launch the mScanFocus Command Center.
+### 2. Deployment
+1. Download the **mScanFocus-Pro-v1.0.apk** from the header button.
+2. Enable "Unknown Sources" and install.
+3. Grant storage permissions to ensure log integrity.
 
-### System Requirements
-*   **OS:** Android 11.0 (API 30) or higher.
-*   **Hardware:** Optimized for ARM64-v8a architecture.
-*   **Storage:** Minimal footprint (~15MB for APK).
+### 3. Usage Flow
+1. **Input:** Place your target `.txt` files (one host per line) in `/storage/emulated/0/Download/mScanFocus/manual_scan/`.
+2. **Scan:** Select your file and choose between **Lite (Turbo)** for raw speed or **Standard (Advanced)** for deep analysis.
+3. **Analyze:** Watch live extraction or review the **Post-Scan Analytics** card.
+4. **Archive:** All results are stored in the **Centralized Log Vault** for later export or Telegram upload.
+
+### 4. File Hierarchy
+```text
+📂 /Download/mScanFocus/
+├── 📂 manual_scan/          ← Place input files here
+│   ├── 📂 xresult_manual/   ← Scanned results saved here
+│   └── 📂 scanned_txt's/    ← Processed inputs moved here
+└── 📂 settings/             ← Core app configurations
+```
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Q: Why is Lite Mode so much faster?**
+A: It operates at the TCP layer, bypassing standard HTTP overhead and heavy SSL verification handshakes.
+
+**Q: Can I scan while the app is minimized?**
+A: Yes. The **Real-time Telemetry** engine runs as a high-priority foreground service with persistent notifications.
+
+**Q: How do I configure Telegram?**
+A: Enter your Bot Token and Chat ID in the **Deep Configuration** panel. You can customize captions using dynamic placeholders like `{hits}`, `{method}`, and `{ports}`.
+
+---
+
+## 🛡️ Professional Disclaimer
+This software is intended for **authorized network analysis and educational security research only**. Usage against targets without explicit permission is strictly prohibited. The developer assumes no liability for misuse.
 
 ---
 
