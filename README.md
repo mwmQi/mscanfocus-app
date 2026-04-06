@@ -13,6 +13,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/mwmQi/mscanfocus-app/releases/download/v1.0/mScanFocus-Pro-v1.0.apk">
+    <img src="https://img.shields.io/badge/DOWNLOAD-PRO_APK-00FF88?style=for-the-badge&logo=android&logoColor=black" alt="Download APK">
+  </a>
+</p>
+
+<p align="center">
   <a href="#-technology">Technology</a> •
   <a href="#-gallery">Gallery</a> •
   <a href="#-deployment">Deployment</a> •
