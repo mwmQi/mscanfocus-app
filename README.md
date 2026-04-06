@@ -106,16 +106,38 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
 
 ---
 
+## ⚙️ Advanced Configuration Guide
+
+Tailor the engine to your specific network environment using the **Deep Configuration** panel:
+
+*   **🔌 Target Ports:** Define a comma-separated list of ports (e.g., `80,443,8080`).
+*   **🧵 Thread Concurrency:** Set the number of simultaneous connection workers. Recommended: `50` for stability, `150+` for aggressive discovery.
+*   **⚡ HTTP Method:** Choose between `HEAD` (Fastest), `GET`, `POST`, `PUT`, or `DELETE` based on server requirements.
+*   **⏱️ Connection Timeout:** Global timeout in seconds. Increase this for high-latency or global networks.
+*   **🚫 Selective 302 Filter:** Enable to bypass non-essential redirects.
+*   **📝 Exclusion Patterns:** Define specific URLs or keywords (e.g., `recharge`, `portal`) to ignore during 302 filtering.
+*   **🤖 Telegram Bot Token:** Your unique API key from @BotFather.
+*   **🆔 Chat/Topic ID:** The destination ID for automated reporting. Supports private chats, channels, and specific forum topics.
+*   **🏷️ Custom Caption:** Full control over your Telegram reports using dynamic variables like `{hits}`, `{method}`, and `{scantime}`.
+
+---
+
 ## ❓ Frequently Asked Questions
 
-**Q: Why is Lite Mode so much faster?**
-A: It operates at the TCP layer, bypassing standard HTTP overhead and heavy SSL verification handshakes.
+**Q: Why is the scanning speed slower than expected?**  
+A: Optimization is key. Reduce thread count to `30-50`, use the `HEAD` method, and ensure your device has a stable network connection.
 
-**Q: Can I scan while the app is minimized?**
-A: Yes. The **Real-time Telemetry** engine runs as a high-priority foreground service with persistent notifications.
+**Q: Why am I seeing "No Results" even on active hosts?**  
+A: Check your **Connection Timeout**. High-security servers may take longer to respond. Also, ensure you are testing the correct ports.
 
-**Q: How do I configure Telegram?**
-A: Enter your Bot Token and Chat ID in the **Deep Configuration** panel. You can customize captions using dynamic placeholders like `{hits}`, `{method}`, and `{ports}`.
+**Q: Does the app save progress if it is closed?**  
+A: **Yes.** Progress is automatically cached every 100 lines. Simply reopen the app and tap **RESUME** on the dashboard.
+
+**Q: Why is my Telegram upload failing?**  
+A: Double-check your **Bot Token** and **Chat ID**. Ensure your bot has permission to post in the target channel or topic.
+
+**Q: Where can I find my exported log files?**  
+A: All data is archived in the `/Download/mScanFocus/` directory on your internal storage.
 
 ---
 
