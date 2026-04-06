@@ -30,11 +30,11 @@
 
 ## 💎 The Gold Standard in Mobile Scanning
 
-mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By combining **Raw Socket Level connectivity** with the robustness of **Standard HTTP Clients**, we provide a scanning experience previously only possible on desktop environments.
+mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By combining our proprietary high-velocity scanning core with advanced protocol validation, we provide a scanning experience previously only possible on desktop environments.
 
 ### 🚀 Dual-Engine Hybrid Technology
-*   **Lite Mode (Turbo):** Custom-engineered **TCP Socket Orchestration** that bypasses the JVM's standard network overhead for extreme throughput. Implements a specialized **Unsafe SSL/TLS Handshake Bypass**, enabling data extraction from hardened, legacy, or misconfigured servers.
-*   **Standard Mode (Advanced):** A high-fidelity **Protocol Emulation Engine** built on a hardened OkHttp foundation. Utilizes **Custom Interceptor Chains** for precise header synthesis and forensic-level response analysis.
+*   **Lite Mode (Turbo):** A custom-engineered high-velocity engine designed for maximum throughput. It utilizes a specialized connection layer to achieve extreme performance while maintaining a near-zero system footprint.
+*   **Standard Mode (Advanced):** A precision discovery engine optimized for complex protocol analysis. Built for absolute accuracy and deep response inspection, ensuring reliable data extraction across any network environment.
 
 ### 🎯 Intelligent Redirection Logic (302)
 Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits.
