@@ -26,14 +26,11 @@
 mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By combining **Raw Socket Level connectivity** with the robustness of **Standard HTTP Clients**, we provide a scanning experience previously only possible on desktop environments.
 
 ### 🚀 Dual-Engine Hybrid Technology
-*   **Lite Mode (Turbo):** Custom-engineered **TCP Socket Orchestration** that bypasses the JVM's standard network overhead for extreme throughput. Implements a specialized **Unsafe SSL/TLS Handshake Bypass**, enabling data extraction from hardened, legacy, or misconfigured servers that standard clients cannot negotiate.
-*   **Standard Mode (Advanced):** A high-fidelity **Protocol Emulation Engine** built on a hardened OkHttp foundation. Unlike basic implementations, it utilizes **Custom Interceptor Chains** for precise header synthesis and forensic-level response analysis, detecting hidden server behaviors and nuanaced redirection patterns with absolute accuracy.
+*   **Lite Mode (Turbo):** Custom-engineered **TCP Socket Orchestration** that bypasses the JVM's standard network overhead for extreme throughput. Implements a specialized **Unsafe SSL/TLS Handshake Bypass**, enabling data extraction from hardened, legacy, or misconfigured servers.
+*   **Standard Mode (Advanced):** A high-fidelity **Protocol Emulation Engine** built on a hardened OkHttp foundation. Utilizes **Custom Interceptor Chains** for precise header synthesis and forensic-level response analysis.
 
 ### 🎯 Intelligent Redirection Logic (302)
-Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits. Tailor your exclusion list with real-time feedback.
-
-### 🤖 Professional Reporting
-Seamless Telegram Bot API integration. Receive formatted, code-blocked reports directly to your private channel or topic, complete with actionable buttons and full metadata.
+Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits.
 
 ---
 
@@ -41,24 +38,34 @@ Seamless Telegram Bot API integration. Receive formatted, code-blocked reports d
 
 <table align="center">
   <tr>
-    <td width="33%"><img src="assets/screenshots/dashboard.png" alt="Command Center"></td>
-    <td width="33%"><img src="assets/screenshots/active_scan.png" alt="Live Engine"></td>
-    <td width="33%"><img src="assets/screenshots/results.png" alt="Data Intelligence"></td>
+    <td width="33%"><img src="assets/screenshots/01_main_menu.png" alt="Command Center"></td>
+    <td width="33%"><img src="assets/screenshots/02_live_notification.png" alt="Telemetry"></td>
+    <td width="33%"><img src="assets/screenshots/03_engine_selection.png" alt="Orchestration"></td>
   </tr>
   <tr align="center">
-    <td><b>Command Center</b><br><small>Real-time system telemetry</small></td>
-    <td><b>Live Engine</b><br><small>Turbo-threaded processing</small></td>
-    <td><b>Data Intelligence</b><br><small>Advanced result extraction</small></td>
+    <td><b>Command Center</b><br><small>Modular Dashboard</small></td>
+    <td><b>Real-time Telemetry</b><br><small>Background Scanning</small></td>
+    <td><b>Engine Orchestration</b><br><small>Dual-Mode Toggle</small></td>
   </tr>
   <tr>
-    <td width="33%"><img src="assets/screenshots/settings.png" alt="Configuration"></td>
-    <td width="33%"><img src="assets/screenshots/toolkit.png" alt="Toolkit"></td>
-    <td width="33%"></td>
+    <td width="33%"><img src="assets/screenshots/04_live_scanning.png" alt="Live Engine"></td>
+    <td width="33%"><img src="assets/screenshots/05_scan_results.png" alt="Data Intelligence"></td>
+    <td width="33%"><img src="assets/screenshots/06_scan_complete.png" alt="Analytics"></td>
   </tr>
   <tr align="center">
-    <td><b>Configuration</b><br><small>Granular engine control</small></td>
-    <td><b>The Toolkit</b><br><small>Post-scan optimization utilities</small></td>
-    <td></td>
+    <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
+    <td><b>Data Intelligence</b><br><small>High-Fidelity Extraction</small></td>
+    <td><b>Post-Scan Analytics</b><br><small>Completion Summary</small></td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="assets/screenshots/07_settings_panel.png" alt="Configuration"></td>
+    <td width="33%"><img src="assets/screenshots/08_toolkit_utility.png" alt="Toolkit"></td>
+    <td width="33%"><img src="assets/screenshots/09_history_logs.png" alt="Archive"></td>
+  </tr>
+  <tr align="center">
+    <td><b>Deep Configuration</b><br><small>Granular Engine Control</small></td>
+    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+    <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
   </tr>
 </table>
 
