@@ -56,22 +56,22 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
   <tr>
     <td width="33%"><img src="assets/screenshots/04_live_notification.png" alt="Telemetry"></td>
     <td width="33%"><img src="assets/screenshots/05_scan_results.png" alt="Data Intelligence"></td>
-    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
+    <td width="33%"><img src="assets/screenshots/08_live_scanning.png" alt="Live Engine"></td>
   </tr>
   <tr align="center">
     <td><b>Real-time Telemetry</b><br><small>Background Scanning</small></td>
     <td><b>Data Intelligence</b><br><small>High-Fidelity Extraction</small></td>
-    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+    <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
   </tr>
   <tr>
-    <td width="33%"><img src="assets/screenshots/07_history_logs.png" alt="Archive"></td>
-    <td width="33%"><img src="assets/screenshots/08_live_scanning.png" alt="Live Engine"></td>
     <td width="33%"><img src="assets/screenshots/09_engine_selection.png" alt="Orchestration"></td>
+    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
+    <td width="33%"><img src="assets/screenshots/07_history_logs.png" alt="Archive"></td>
   </tr>
   <tr align="center">
-    <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
-    <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
     <td><b>Engine Orchestration</b><br><small>Dual-Mode Toggle</small></td>
+    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+    <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
   </tr>
 </table>
 
