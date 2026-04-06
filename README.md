@@ -39,33 +39,33 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
 <table align="center">
   <tr>
     <td width="33%"><img src="assets/screenshots/01_main_menu.png" alt="Command Center"></td>
-    <td width="33%"><img src="assets/screenshots/02_live_notification.png" alt="Telemetry"></td>
-    <td width="33%"><img src="assets/screenshots/03_engine_selection.png" alt="Orchestration"></td>
+    <td width="33%"><img src="assets/screenshots/02_scan_complete.png" alt="Analytics"></td>
+    <td width="33%"><img src="assets/screenshots/03_settings_panel.png" alt="Configuration"></td>
   </tr>
   <tr align="center">
     <td><b>Command Center</b><br><small>Modular Dashboard</small></td>
-    <td><b>Real-time Telemetry</b><br><small>Background Scanning</small></td>
-    <td><b>Engine Orchestration</b><br><small>Dual-Mode Toggle</small></td>
-  </tr>
-  <tr>
-    <td width="33%"><img src="assets/screenshots/04_live_scanning.png" alt="Live Engine"></td>
-    <td width="33%"><img src="assets/screenshots/05_scan_results.png" alt="Data Intelligence"></td>
-    <td width="33%"><img src="assets/screenshots/06_scan_complete.png" alt="Analytics"></td>
-  </tr>
-  <tr align="center">
-    <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
-    <td><b>Data Intelligence</b><br><small>High-Fidelity Extraction</small></td>
     <td><b>Post-Scan Analytics</b><br><small>Completion Summary</small></td>
+    <td><b>Deep Configuration</b><br><small>Granular Engine</small></td>
   </tr>
   <tr>
-    <td width="33%"><img src="assets/screenshots/07_settings_panel.png" alt="Configuration"></td>
-    <td width="33%"><img src="assets/screenshots/08_toolkit_utility.png" alt="Toolkit"></td>
-    <td width="33%"><img src="assets/screenshots/09_history_logs.png" alt="Archive"></td>
+    <td width="33%"><img src="assets/screenshots/04_live_notification.png" alt="Telemetry"></td>
+    <td width="33%"><img src="assets/screenshots/05_scan_results.png" alt="Data Intelligence"></td>
+    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
   </tr>
   <tr align="center">
-    <td><b>Deep Configuration</b><br><small>Granular Engine Control</small></td>
+    <td><b>Real-time Telemetry</b><br><small>Background Scanning</small></td>
+    <td><b>Data Intelligence</b><br><small>High-Fidelity Extraction</small></td>
     <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="assets/screenshots/07_history_logs.png" alt="Archive"></td>
+    <td width="33%"><img src="assets/screenshots/08_live_scanning.png" alt="Live Engine"></td>
+    <td width="33%"><img src="assets/screenshots/09_engine_selection.png" alt="Orchestration"></td>
+  </tr>
+  <tr align="center">
     <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
+    <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
+    <td><b>Engine Orchestration</b><br><small>Dual-Mode Toggle</small></td>
   </tr>
 </table>
 
