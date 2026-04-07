@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/mScanFocus-Pro_Edition-7B2CBF?style=for-the-badge&logo=android&logoColor=white" alt="mScanFocus Pro">
   <br>
-  <img src="https://img.shields.io/badge/Dual_Hybrid_Engine-Enabled-00FF88?style=flat-square" alt="Hybrid Engine">
+  <img src="https://img.shields.io/badge/High_Fidelity_Engine-Enabled-00FF88?style=flat-square" alt="High Fidelity Engine">
   <img src="https://img.shields.io/badge/Secure_Log_Export-Verified-white?style=flat-square" alt="Secure">
 </p>
 
@@ -32,9 +32,8 @@
 
 mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By combining our proprietary high-velocity scanning core with advanced protocol validation, we provide a scanning experience previously only possible on desktop environments.
 
-### 🚀 Dual-Engine Hybrid Technology
-*   **Lite Mode (Turbo):** A custom-engineered high-velocity engine designed for maximum throughput. It utilizes a specialized connection layer to achieve extreme performance while maintaining a near-zero system footprint.
-*   **Standard Mode (Advanced):** A precision discovery engine optimized for complex protocol analysis. Built for absolute accuracy and deep response inspection, ensuring reliable data extraction across any network environment.
+### 🚀 Advanced Scanning Engine
+Our engine is optimized for complex protocol analysis. Built for absolute accuracy and deep response inspection, it ensures reliable data extraction across any network environment while maintaining a near-zero system footprint.
 
 ### 🎯 Intelligent Redirection Logic (302)
 Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits.
@@ -65,14 +64,14 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
     <td><b>Live Engine</b><br><small>Turbo-threaded Stream</small></td>
   </tr>
   <tr>
-    <td width="33%"><img src="assets/screenshots/09_engine_selection.png" alt="Orchestration"></td>
-    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
     <td width="33%"><img src="assets/screenshots/07_history_logs.png" alt="Archive"></td>
+    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
+    <td width="33%"></td>
   </tr>
   <tr align="center">
-    <td><b>Engine Orchestration</b><br><small>Dual-Mode Toggle</small></td>
-    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
     <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
+    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+    <td></td>
   </tr>
 </table>
 
@@ -91,7 +90,7 @@ Automate your workflow with selective 302 handling. Automatically filter out ISP
 
 ### 3. Usage Flow
 1. **Input:** Place your target `.txt` files (one host per line) in `/storage/emulated/0/Download/mScanFocus/manual_scan/`.
-2. **Scan:** Select your file and choose between **Lite (Turbo)** for raw speed or **Standard (Advanced)** for deep analysis.
+2. **Scan:** Select your file to initiate the high-fidelity scanning engine.
 3. **Analyze:** Watch live extraction or review the **Post-Scan Analytics** card.
 4. **Archive:** All results are stored in the **Centralized Log Vault** for later export or Telegram upload.
 
@@ -126,6 +125,9 @@ Tailor the engine to your specific network environment using the **Deep Configur
 
 **Q: Why is the scanning speed slower than expected?**  
 A: Optimization is key. Reduce thread count to `30-50`, use the `HEAD` method, and ensure your device has a stable network connection.
+
+**Q: Can I scan while the app is minimized?**
+A: Yes. The **Real-time Telemetry** engine runs as a high-priority foreground service with persistent notifications.
 
 **Q: Why am I seeing "No Results" even on active hosts?**  
 A: Check your **Connection Timeout**. High-security servers may take longer to respond. Also, ensure you are testing the correct ports.
