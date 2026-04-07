@@ -35,8 +35,8 @@ mScanFocus is not just a tool; it is a high-performance scanning ecosystem. By c
 ### 🚀 Advanced Scanning Engine
 Our engine is optimized for complex protocol analysis. Built for absolute accuracy and deep response inspection, it ensures reliable data extraction across any network environment.
 
-*   **🌐 CIDR Range Expansion:** Automatically expand IP blocks (e.g., `192.168.1.0/24`) into individual targets for massive network discovery.
-*   **🎯 Intelligent Redirection Logic (302):** Automate your workflow with selective 302 handling. Filter out ISP recharge portals while preserving valid hits.
+### 🎯 Intelligent Redirection Logic (302)
+Automate your workflow with selective 302 handling. Automatically filter out ISP recharge portals and regional redirection while preserving valid hits.
 
 ---
 
