@@ -38,15 +38,6 @@ Our engine is optimized for complex protocol analysis. Built for absolute accura
 *   **🌙 AFK Stealth Mode:** Specialized power-saving layer for long-duration sessions. Implements an ultra-low brightness overlay with touch-locking to prevent accidental input while maintaining full core velocity.
 *   **🎯 Intelligent Redirection Logic (302):** Automate your workflow with selective 302 handling. Filter out ISP recharge portals while preserving valid hits.
 
-### 🛠️ Elite Toolkit Suite
-A professional-grade data manipulation engine for managing massive host lists:
-
-*   **✨ Smart Deduplication:** High-speed, memory-efficient removal of redundant entries.
-*   **🌍 Root Extractor:** Automatically isolates base domains (e.g., `sub.example.com` → `example.com`).
-*   **🔍 TLD Filter:** Granular filtering by extension (e.g., isolate only `.gov` or `.edu` targets).
-*   **🛰️ IP Isolator:** Pure extraction of IPv4/IPv6 addresses from complex data strings.
-*   **✂️ Archive Splitting:** Fragment multi-million line files into manageable parts with zero-RAM overhead.
-
 ---
 
 ## 📸 Pro Gallery
@@ -74,12 +65,12 @@ A professional-grade data manipulation engine for managing massive host lists:
   </tr>
   <tr>
     <td width="33%"><img src="assets/screenshots/07_history_logs.png" alt="Archive"></td>
-    <td width="33%"><img src="assets/screenshots/06_toolkit_utility.png" alt="Toolkit"></td>
+    <td width="33%"></td>
     <td width="33%"></td>
   </tr>
   <tr align="center">
     <td><b>Archive Intelligence</b><br><small>Centralized Log Vault</small></td>
-    <td><b>The Pro Toolkit</b><br><small>Optimization Utilities</small></td>
+    <td></td>
     <td></td>
   </tr>
 </table>
